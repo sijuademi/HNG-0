@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/777ba69f2b.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="shown">
+				<div class="top">
+					<div class="profile-picture">
+						<img
+							data-testid="profilePicture"
+							src="./profile-1.png"
+							alt="profile"
+						/>
+					</div>
+					<div class="fullname">
+						<h3 data-testid="fullname">Ibrahim Adebayo</h3>
+						<p data-testid="JobTitle">Front-End Developer</p>
+					</div>
+				</div>
+
+				<div class="socials">
+					<a
+						data-testid="socialLinks"
+						href="https://twitter.com/Sijuadebayo"
+						title="Twitter Profile"
+						><i class="fa-brands fa-twitter"></i
+					></a>
+					<a
+						data-testid="socialLinks"
+						href="https://www.instagram.com/sijuadebayo000"
+						title="Instagram Profile"
+						><i class="fa-brands fa-instagram"></i
+					></a>
+
+					<a
+						data-testid="socialLinks"
+						href="https://www.linkedin.com/in/adebayo-ibrahim-sij"
+						title="LinkedIn Profile"
+						><i class="fa-brands fa-linkedin-in"></i
+					></a>
+					<a
+						data-testid="socialLinks"
+						href="https://github.com/sijuademi"
+						title="Github Profile"
+						><i class="fa-brands fa-github"></i
+					></a>
+				</div>
+
+				<div class="btns">
+					<button type="submit">learn more</button>
+				</div>
+			</div>
+
+			<div class="more hidden">
+				<button class="close-more">&times;</button>
+				<div class="bio">
+					<p data-testid="shortBio">
+						I am Ibrahim Adebayo, a recent graduate of pharamacology, University
+						of Lagos. I am a skilled Front-End Developer with passion for
+						creating responsive and visual appealing web applications. I am
+						proficient in HTML, CSS and JavaScript. I specialie in building
+						seamless user experience with a strong focus on performance and
+						accessibility in order to aid conversion and user retention.
+					</p>
+				</div>
+				<div class="location-email">
+					<div class="location">
+						<p data-testid="currentLocation">
+							<i class="fa-solid fa-location-dot"></i> Ogun, Nigeria
+						</p>
+					</div>
+
+					<div class="email">
+						<p data-testid="emailAddress">
+							<i class="fa-regular fa-envelope"></i> sijuadebayo@gmail.com
+						</p>
+					</div>
+				</div>
+				<div class="time" data-testid="currentTimeUTC"></div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
